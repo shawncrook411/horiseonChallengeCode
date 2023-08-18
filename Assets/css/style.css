@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: #ffffff;     
+    text-decoration: none;
+}
+
+.font-trebuchet{ /*sets font family to Trebuchet etc. */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.font-gill{ /*sets font family to gill etc. */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body { /*adds a background color, couldn't find anywhere else to add this that didn't break */
+    background-color: #d9dcd6;
+}
+
+header { /*defines header color and helps position */
+    padding: 20px;
+    background-color: #2a607c;
+    
+}
+
+h1 { /*defines h1 size and shape */
+    display: inline-block;
+    font-size: 48px;
+}
+
+header span { /* Sets the "SEO" in Horiseon to gray */
+    color: #d9dcd6;
+}
+
+nav { /* defines the nav bars size */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+nav li { /* Sets Nav list items in line next to header*/
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#hero { /* positions the large cover photo */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-position: center;
+}
+
+.float-left { 
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right { /*allows for section 2 to have text first then the photo */
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content section { /*defines the blue cards that the blocks of photo/text are placed onto */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+.content section img {
+    max-height: 200px;
+}
+
+.content section h2 { /*headers for the large blocks of text in content */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits { /* positions the aside bar on the right */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+}
+
+.benefits section {
+    margin-bottom: 32px;
+    
+}
+
+.benefits section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer { /*positions and defines the footer properly */
+    padding: 30px;
+    clear: both;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer h2, /*makes the footer text black */
+footer p{
+    color: black;
+}
