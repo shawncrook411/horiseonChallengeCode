@@ -5,6 +5,7 @@
     list-style-type: none;
     color: #ffffff;     
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 .font-trebuchet{ /*sets font family to Trebuchet etc. */
